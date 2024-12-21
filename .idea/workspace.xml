@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a415e3e7-f2ae-4072-8c92-38cb68f0f471" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codingproblems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cp/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cp/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cp/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cp/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codeproblems/FindSecondHighestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memorymanagement/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memorymanagement/GarbageCollectionPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memorymanagement/OutOfMemoryErrorSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memorymanagement/StackOverflowErrorSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Garbage-Collection.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/JDK-JRE-JVM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/JVM-Architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Native-Memory.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeproblems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeproblems/FibonacciSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeproblems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeproblems/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2qCwVcQlYxmhgEvYaufqA7MwaTi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,9 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Employee.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.FindSecondHighestNumber.executor": "Run",
+    "Application.GarbageCollectionPractice.executor": "Run",
+    "Application.OutOfMemoryErrorSample.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.StackOverflowErrorSample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
@@ -55,6 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,13 +72,13 @@
       <recent name="cp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp.FibonacciSeries" />
+  <component name="RunManager" selected="Application.GarbageCollectionPractice">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memorymanagement.Employee" />
       <module name="codingproblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp.*" />
+          <option name="PATTERN" value="memorymanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp.Palindrome" />
+    <configuration name="FindSecondHighestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codeproblems.FindSecondHighestNumber" />
       <module name="codingproblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp.*" />
+          <option name="PATTERN" value="codeproblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp.ReverseString" />
+    <configuration name="GarbageCollectionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memorymanagement.GarbageCollectionPractice" />
       <module name="codingproblems" />
+      <option name="VM_PARAMETERS" value="-Xlog:gc*:file=gc.log:time,uptime,level,tags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp.*" />
+          <option name="PATTERN" value="memorymanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +113,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OutOfMemoryErrorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memorymanagement.OutOfMemoryErrorSample" />
+      <module name="codingproblems" />
+      <option name="VM_PARAMETERS" value="-Xmx5m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memorymanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflowErrorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memorymanagement.StackOverflowErrorSample" />
+      <module name="codingproblems" />
+      <option name="VM_PARAMETERS" value="-Xss5m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memorymanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Employee" />
+      <item itemvalue="Application.FindSecondHighestNumber" />
+      <item itemvalue="Application.GarbageCollectionPractice" />
+      <item itemvalue="Application.OutOfMemoryErrorSample" />
+      <item itemvalue="Application.StackOverflowErrorSample" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.FibonacciSeries" />
+        <item itemvalue="Application.GarbageCollectionPractice" />
+        <item itemvalue="Application.FindSecondHighestNumber" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.OutOfMemoryErrorSample" />
+        <item itemvalue="Application.StackOverflowErrorSample" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +174,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734179891704</updated>
-      <workItem from="1734179892833" duration="7113000" />
+      <workItem from="1734179892833" duration="14989000" />
+      <workItem from="1734493289410" duration="594000" />
+      <workItem from="1734498441630" duration="1726000" />
+      <workItem from="1734754281986" duration="6744000" />
     </task>
     <servers />
   </component>
